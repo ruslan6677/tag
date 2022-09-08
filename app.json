@@ -1,7 +1,7 @@
 {
-  "name": "TÜRK-C Tagger Bot",
+  "name": "McCallTurkBot",
   "logo":"https://telegra.ph/file/50c0103e4548eaae95e4d.jpg",
-  "description": "TÜRK-C TAG bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "description": "Bu Bot Ruslan Tarafından oluşturulmuşdur",
   "env": {
     "TOKEN": {
       "description": "bot token girin YOUTUBE KANALIMDA KURULUMU VAR .",
@@ -12,7 +12,7 @@
       "value": ""
     },
     "API_HASH": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "description": "@otomytelegrambot dan api hash api Ruslan alınız.",
       "value": ""
     }
   },
