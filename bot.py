@@ -27,8 +27,8 @@ async def cancel(event):
 async def start(event):
   await event.reply("**Ben Tagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/turkctagbot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/turkcbot')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/KukruzF?startgroup=a'),
+                      Button.url('📣 Geliştirici', 'https://t.me/KukruzF')]
                     ),
                     link_preview=False
                    )
@@ -37,8 +37,8 @@ async def help(event):
   helptext = "**Tagger Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir\n@turkcbot"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/turkctagbot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/turkcbot')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/KukruzF?startgroup=a'),
+                      Button.url('📣 Geliştirici', 'https://t.me/KukruzF')]
                     ),
                     link_preview=False
                    )
@@ -48,7 +48,7 @@ async def help(event):
 async def mentionall(event):
   global anlik_calisan
   if event.is_private:
-    return await event.respond("__Bu komut gruplarda ve kanallarda kullanılabilir.!__")
+    return await event.respond("__Bu komut gruplarda scoot ve kanallarda kullanılabilir.!__")
    
   admins = []
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
@@ -80,6 +80,6 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot çalıyor merak etme 🚀 @drmehmetaktass bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @ordayam_5_deqiqeye bilgi alabilirsin <<")
 client.run_until_disconnected()
  
